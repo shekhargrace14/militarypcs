@@ -1,0 +1,21 @@
+.downArrow {
+  position: relative;
+  padding-left: 2rem; /* space for the arrow */
+}
+.downArrow::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -16px;
+  transform: translateY(-50%);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 12px solid #DEDEDE; /* arrow color */
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+ font-family: 'Poppins', sans-serif;
+}
